@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- Connect to websocket -->
+	<button id="connect" type="submit">Connect</button>
+	
+	<!-- DisConnect to websocket -->
+	<button id="disconnect" type="submit">Disconnect</button>
+	<br>
+	
+	<!-- Form to send message -->	
+	<form>
+		<div>
+			<label for="name">what is your name</label>
+			<input type="text" id="name" placeholder="you name here ...">
+		</div>
+		<button id="send" type="submit">Send</button>
+	</form>
+	
+	<!-- Display message on this table -->
+	<table>
+		<thead>
+			<tr>
+				<th>Greeting</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="greetings"></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	 <script src="/webjars/jquery/3.4.0/jquery.min.js"></script>
+	 <script src="/webjars/sockjs-client/dist/sockjs.min.js"></script>	  
+	  <script src="/webjars/stomp-websocket/lib/stomp.min.js"></script>	  
+	  <script src="/jsp/app.js"></script>
+</body>
+</html>

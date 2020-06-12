@@ -1,0 +1,82 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-4.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+  <head>
+  <meta charset="ISO-8859-1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  	<!-- Bootstrap css -->
+      <!--   <link rel="stylesheet" type="text/css" media="all" 
+          href="/webjars/bootstrap/4.4.1/css/bootstrap.css" data-th-href="@{/webjars/bootstrap/4.4.1/css/bootstrap.css}" />  
+          
+       <link rel="stylesheet" type="text/css" media="all" 
+          href="/webjars/bootstrap/4.4.1/css/bootstrap.min.css" data-th-href="@{/webjars/bootstrap/4.4.1/css/bootstrap.min.css}" /> -->
+        
+       <!-- Custom Css 
+       <link rel="stylesheet" type="text/css" media="all" 
+          href="../../css/tscss.css" data-th-href="@{/css/tscss.css}" />   -->   
+          
+    <title>WEBSOCKET</title>
+    
+  </head>
+<body>
+	<h1>JavaScript is funny</h1>
+	<p></p>
+	<button onclick=print()>Click here to Print</button>
+	
+	<button onclick=printOnConsole()>Show on console</button>
+	
+	<button onclick=printHelloWorld('Hamburg')>Hello</button>
+	<br>
+	
+	
+	<!-- Connect to websocket -->
+	<button id="connect" type="submit">Connect</button>
+	
+	<!-- DisConnect to websocket -->
+	<button id="disconnect" type="submit">Disconnect</button>
+	<br>
+	
+	<!-- Form to send message -->	
+	<form>
+		<div>
+			<label for="name">what is your name</label>
+			<input type="text" id="name" placeholder="you name here ...">
+		</div>
+		<button id="send" type="submit">Send</button>
+	</form>
+	
+	<!-- Display message on this table -->
+	<table>
+		<thead>
+			<tr>
+				<th>Greeting</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="greetings"></td>
+			</tr>
+		</tbody>
+	</table>
+	
+	
+	
+	
+	
+	
+	
+	 <script src="/webjars/bootstrap/4.4.0/dist/js/bootstrap.js"></script>
+	 <script src="/webjars/sockjs-client/dist/sockjs.min.js"></script>	  
+	  <script src="/webjars/stomp-websocket/lib/stomp.min.js"></script>
+	  <script src="/webjars/jquery/3.4.0/jquery.min.js"></script>
+	  <script src="/jsp/app.js"></script>
+	 
+	<!-- Javascript part
+  	 <script type="text/javascript" src="/jsp/hello.js"></script>
+  	 <script type="text/javascript" src="/jsp/app.js"></script>
+  	 <!--  <script type="text/javascript" src="/jsp/websock.js"></script> /webjars/jquery/3.4.0/jquery.js  --> 
+</body>
+</html>
