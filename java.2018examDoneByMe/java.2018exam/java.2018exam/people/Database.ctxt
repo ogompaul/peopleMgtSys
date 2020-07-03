@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Database
+comment0.text=\r\n\ A\ very\ simple\ database\ of\ people\ in\ a\ university.\ This\ class\ simply\ stores\r\n\ persons\ and,\ at\ request,\ lists\ them\ on\ standard\ output.\r\n\r\n\ Written\ as\ a\ first\ demo\ program\ for\ BlueJ.\r\n\ \r\n\ @author\ \ Patrick\ Chimeudeonwo\r\n\ @version\ July\ 2018\r\n
+comment1.params=
+comment1.target=Database()
+comment1.text=\r\n\ Constructor\:\ creates\ a\ new,\ empty\ database\ as\ a\ List\ of\ Person.\r\n
+comment2.params=p
+comment2.target=void\ addPerson(Person)
+comment2.text=\r\n\ Add\ a\ person\ to\ the\ database.\r\n
+comment3.params=
+comment3.target=void\ listAll()
+comment3.text=\r\n\ List\ all\ the\ persons\ currently\ in\ the\ database\ on\ standard\ out\ while\ using\ delegation\ to\ the\ toString-method\ of\ Person\r\n
+comment4.params=
+comment4.target=void\ fillList()
+comment4.text=\r\n\ Problem\ 2\ b\r\n
+comment5.params=yr
+comment5.target=void\ printFirstWithBirthYear(int)
+comment5.text=\r\n\ Problem\ 2\ c\r\n\ prints\ the\ first\ person\ with\ BirthYear\ yr\ currently\ in\ the\ database\ on\ standard\ out.\r\n
+comment6.params=
+comment6.target=void\ writeToFile()
+numComments=7

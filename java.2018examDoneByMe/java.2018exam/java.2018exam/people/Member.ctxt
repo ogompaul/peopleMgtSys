@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Member
+comment0.text=\r\n\ Abstract\ class\ Member\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ Patrick\ Chimeudeonwo\r\n\ @version\ July\ 2018\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\r\n\ @param\ \ \r\n\ @return\ \ \ \ \r\n
+numComments=2

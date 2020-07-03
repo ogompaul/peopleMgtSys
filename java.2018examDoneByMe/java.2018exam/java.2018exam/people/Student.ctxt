@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Student\ here.\r\n\r\n\ @author\ Patrick\ Chimeudeonwo\r\n\ @version\ July\ 2018\r\n
+comment1.params=
+comment1.target=Student()
+comment1.text=\r\n\ Default\ Constructor\ for\ objects\ of\ class\ Student\r\n
+comment2.params=name\ year\ id
+comment2.target=Student(java.lang.String,\ int,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=int\ getYearOfBirth()
+comment5.params=
+comment5.target=int\ getStudentID()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
